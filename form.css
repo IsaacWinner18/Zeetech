@@ -1,0 +1,127 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      background-color: rgb(241, 238, 233);
+}
+
+.reg-btn {
+      font-size: 25px;
+      font-weight: 800;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px 0;
+      text-align: center;
+}
+form {
+      background-color: rgb(255, 255, 255);
+      border-radius: 4px;
+      padding: 1.3rem 1.3rem;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      margin-left: 19rem;
+      margin-right: 16rem;
+      color: rgb(15, 15, 75);
+      display: flex;
+      gap: 0.4rem;
+      flex-direction: column;
+}
+
+form label {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 600;
+      background-color: rgb(255, 255, 255);
+}
+
+form input {
+      padding: 0.4rem 0;
+      background-color: rgb(241, 235, 235);
+      border: none;
+      border-radius: 5px;
+}
+#upload {
+      width: 6rem;
+      height: 5rem;
+      padding: 3px 3px;
+      border: 1px solid black;
+}
+
+.program-sec {
+      font-size: 20px;
+      font-weight: 800;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin: 20px 0;
+      text-align: center;
+}
+
+.payment-sec {
+      font-size: 20px;
+      font-weight: 800;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin: 20px 0;
+      text-align: center;
+}
+
+ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+}
+
+.the-acc {
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(15, 15, 75);
+}
+
+.acc-info {
+      font-weight: 800;
+}
+
+@media screen and (max-width: 950px) {
+
+form {
+            margin-top: 3rem;
+            margin-left: 10rem;
+            margin-right: 16rem;
+            display: flex;
+            flex-direction: column;
+      }
+      
+}
+
+@media screen and (max-width: 840px) {
+
+      form {
+                  margin-top: 3rem;
+                  margin-left: 10rem;
+                  margin-right: 7rem;
+                  display: flex;
+                  flex-direction: column;
+            }
+            
+      }
+
+      @media screen and (max-width: 730px) {
+
+            form {
+                        margin-top: 3rem;
+                        margin-left: 4rem;
+                        margin-right: 6rem;
+                        display: flex;
+                        flex-direction: column;
+                  }
+                  
+            }
+
+            @media screen and (max-width: 500px) {
+
+                  form {
+                              margin-top: 3rem;
+                              margin-left: 1rem;
+                              margin-right: 2rem;
+                              display: flex;
+                              flex-direction: column;
+                        }
+                        
+                  }
