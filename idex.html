@@ -4,29 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
 
-    <div class="nav-wrap">
-        <ul class="nav-bar">
-            <li class="logo">ZEETECH logo</li>
-            <li>
-                About Us
-            </li>
-            <li>
-                Contacts
-            </li>
-            <li>
-                Register
-            </li>
-            <li>
-                <p>
-                    menu bar
-                </p>
-            </li>
-        </ul>
-    </div>
+    <div class="header">
+        <div>
+           <img src="./img/IMG-20240409-WA0006.jpg" alt="" width="40px">
+        </div>
+       <ul class="ul-header">
+                   <li>
+                       About Us
+                   </li>
+                   <li>
+                       Contacts
+                   </li>
+                   <li>
+                       Register
+                       
+                   </li>
+                   
+                   
+       </ul>
+       <div class="bars"><i class="fa fa-bars"></i></div>
+   </div>
+
+   <div
+   class="hero"
+ >
+   <div class="lg:text-8xl md:text-6xl text-5xl font-bold leading-snug md:ml-20 ml-4 md:mt-24 mt-8">
+     <p class="hero-text">
+       One <br />
+       Platform <br />
+       <span>For All Your <br /> </span> Needs.
+     </p>
+   </div>
+ </div>
+
+ <div class="section-one">
+
+ <div class="ai-sec">
+  <img src="./img/hero.png" class="discription-img" width="200px">
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae illo ex corporis, maiores velit esse, laudantium qui odio porro deserunt eaque quo, blanditiis ullam doloribus maxime quod reiciendis architecto nostrum.</p>
+  <a href="#" class="reg-btn">Register 
+    <i class="fa fa-chevron-right"></i>
+  </a>
+ </div>
+
+ <div class="aiappli-sec">
+  <img src="./img/hero.png" class="discription-img" width="200px">
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae illo ex corporis, maiores velit esse, laudantium qui odio porro deserunt eaque quo, blanditiis ullam doloribus maxime quod reiciendis architecto nostrum.</p>
+  <a href="#" class="reg-btn">Register
+    <i class="fa fa-chevron-right"></i>
+  </a>
+ </div>
+
+ <div class="web-sec">
+  <img src="./img/hero.png" class="discription-img" width="200px">
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae illo ex corporis, maiores velit esse, laudantium qui odio porro deserunt eaque quo, blanditiis ullam doloribus maxime quod reiciendis architecto nostrum.</p>
+  <a href="#" class="reg-btn">Register <i class="fa fa-chevron-right"></i></a>
+ </div>
+
+ </div>
+
     
+ <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const menuBar = document.querySelector(".bars");
+
+      if (menuBar) {
+        menuBar.addEventListener("click", () => {
+          const menusElement = document.querySelector(".ul-header");
+
+          if (menusElement) {
+            // Toggle the display property
+            menusElement.style.display =
+              menusElement.style.display === "none" ||
+              menusElement.style.display === ""
+                ? "flex"
+                : "none";
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
