@@ -168,8 +168,8 @@ form {
 
                   form {
                               margin-top: 3rem;
-                              margin-left: 1rem;
-                              margin-right: 2rem;
+                              margin-left: 0.3rem;
+                              margin-right: 0.3rem;
                               display: flex;
                               flex-direction: column;
                         }

@@ -89,6 +89,15 @@ body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  .learn-more-btn, .learn-more-btn-two, .learn-more-btn-three {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .to-hide-text, .to-hide-text-two, .to-hide-text-three {
+    display: none;
+  }
+
   .reg-btn {
     background-color: blue;
     color: white;
@@ -98,6 +107,13 @@ body {
     border-top-left-radius: 6px;
     border-bottom-right-radius: 6px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .footer {
+    background-color: blue;
+    padding-bottom: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 20px;
   }
   
 
