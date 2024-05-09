@@ -74,8 +74,16 @@ body {
   margin-top: 20px;
 }
 
+
+.section-one {
+  margin: 10px 230px;
+  padding-bottom: 10px;
+  /* border: 1px solid red; */
+}
+
 .discription-img {
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .ai-sec {
@@ -85,7 +93,6 @@ body {
   border: 1px solid rgb(230, 223, 223);
   border-top-left-radius: 60px;
   border-bottom-right-radius: 60px;
-  /* flex: 1; */
 }
 
 .aiappli-sec {
@@ -109,6 +116,16 @@ body {
   /* flex: 1; */
 }
 
+.basic-sec {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 0px;
+  margin-bottom: 6px;
+  border: 1px solid rgb(230, 223, 223);
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  /* flex: 1; */
+}
+
 .text {
   text-align: center;
   padding: 0 8px;
@@ -119,14 +136,14 @@ body {
 
 .learn-more-btn,
 .learn-more-btn-two,
-.learn-more-btn-three {
+.learn-more-btn-three, .learn-more-btn-four {
   text-decoration: underline;
   cursor: pointer;
 }
 
 .to-hide-text,
 .to-hide-text-two,
-.to-hide-text-three {
+.to-hide-text-three, .to-hide-text-four {
   display: none;
 }
 
@@ -149,24 +166,15 @@ body {
 }
 
 
-.section-one {
-  display: flex;
-  flex: 1;
-  gap: 2rem;
-  margin: 10px 30px;
-  padding-bottom: 10px;
-}
 
-@media (max-width: 720px) {
+@media (max-width: 1048px) {
   .section-one {
-    display: flex;
-    gap: 0.6rem;
-    margin: 10px 10px;
+    margin: 10px 110px;
     padding-bottom: 10px;
   }
 }
 
-@media (max-width: 648px) {
+@media (max-width: 748px) {
   .section-one {
     display: flex;
     flex-wrap: wrap;

@@ -59,4 +59,18 @@ document.addEventListener("DOMContentLoaded", () => {
             toHideTextThree.style.display = "none";
         }
     });
+
+    const learnMoreBtnFour = document.querySelector(".learn-more-btn-four");
+
+    learnMoreBtnFour.addEventListener("click", () => {
+        const toHideTextFour = document.querySelector(".to-hide-text-four");
+      
+        if (learnMoreBtnFour.innerHTML === "Learn More") {
+            learnMoreBtnFour.innerHTML = "Show Less";
+            toHideTextFour.style.display = "block";
+        } else {
+            learnMoreBtnFour.innerHTML = "Learn More";
+            toHideTextFour.style.display = "none";
+        }
+    });
     
