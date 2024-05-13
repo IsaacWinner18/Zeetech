@@ -35,35 +35,12 @@
 
     <div class="noti-head">
 
-        <p>Dear Winner Isaac, Your form haas been submitted successfully.</p>
+        <p>Dear <span class="showPerson">Winner Isaac</span>, Your form haas been submitted successfully.</p>
 
     </div>
 
     <p class="redirect">You will be redirected back to the home page in <span id="countdown"> 00.05</span></p>
 
- <script>
-  
-  const countdownElement = document.getElementById('countdown');
-    
-    
-    let countdownTime = 5;
-
-   
-    function updateCountdown() {
-        countdownElement.textContent = `00.0${countdownTime}`;
-        countdownTime--;
-
-       
-        if (countdownTime < 1) {
-            window.location.href = "index.html";
-        }
-    }
-
-    updateCountdown();
-
-   
-    const countdownInterval = setInterval(updateCountdown, 1000);
- </script>
-    
+    <script src="noti.js" type="module"></script>
 </body>
 </html>

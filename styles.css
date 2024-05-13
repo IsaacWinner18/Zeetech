@@ -8,7 +8,7 @@ body {
 }
 .header {
  background-color: blue;
- padding: 4px 0px 16px 4px;
+ padding: 4px 0px 19px 4px;
 }
 
 .ul-header {
@@ -38,6 +38,11 @@ body {
 
 .bars {
   display: none;
+}
+
+.register a {
+  text-decoration: none;
+  color: white;
 }
 
 .hero {
@@ -207,7 +212,7 @@ body {
 @media (max-width: 580px) {
 
   .header {
-    padding: 4px 0px 23px 4px;
+    padding: 4px 0px 27px 4px;
   }
 
   .bars {

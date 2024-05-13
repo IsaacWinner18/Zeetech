@@ -43,7 +43,7 @@
       <input
         type="text"
         name="Full Name"
-        id=""
+        id="personName"
         placeholder="Isaac Winner"
         required
       />
@@ -53,13 +53,13 @@
       <input type="text" name="Residential Address" id="" required />
       <label for="">Phone No (Whatsapp)</label>
       <input
-        type="text"
+        type="number"
         name="Phone Number"
         placeholder="08119188295"
         required
       />
-      <label for="">Alternate Phone No</label>
-      <input type="text" name="ALT Phone Number" id="" required />
+      <label for="">Email Address</label>
+      <input type="email" name="Email Address" id="" required />
       <label for="">Gender</label>
       <input type="text" name="Gender" id="" placeholder="M/F" required />
       <label for="">Nationality</label>
@@ -139,12 +139,13 @@
           required
         />
         <div style="color: red">*submit proof of payment (slip).</div>
+      
       </ul>
 
       <input type="submit" value="Submit" name="sub" id="submit" />
       <input type="hidden" name="_next" value="http://127.0.0.1:3000/notification-page.html">
     </form>
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>

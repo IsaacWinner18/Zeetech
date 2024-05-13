@@ -1,3 +1,9 @@
+document.querySelector('#submit').addEventListener("click", () => {
+    const personName = document.querySelector('#personName').value;
+    localStorage.setItem('personName', personName);
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
       const menuBar = document.querySelector(".bars");
 
@@ -73,4 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
             toHideTextFour.style.display = "none";
         }
     });
+    
+
+
+
     
