@@ -1,8 +1,16 @@
-document.querySelector('#submit').addEventListener("click", () => {
-    const personName = document.querySelector('#personName').value;
-    localStorage.setItem('personName', personName);
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     const storelocal = document.querySelector('#submit');
 
+//     if (storelocal) {
+//       storelocal.addEventListener("click", () => {
+//         const personName = document.querySelector('#personName').value;
+//         localStorage.setItem('personName', personName);
+//         console.log(`Stored: ${personName}`);
+//       });
+//     } else {
+//       console.log("Submit button not found");
+//     }
+//   });
 
 document.addEventListener("DOMContentLoaded", () => {
       const menuBar = document.querySelector(".bars");
@@ -22,6 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       }
     });
+
+  
+  
 
     const learnMoreBtn = document.querySelector(".learn-more-btn");
 

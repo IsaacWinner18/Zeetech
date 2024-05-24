@@ -189,23 +189,6 @@ body {
   }
 }
 
-/* @media (min-width: 1024px) {
-  .hero-cover {
-    line-height: 1.375;
-    font-weight: 900;
-    margin-left: 1rem;
-    margin-top: 5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-cover {
-    line-height: 1.375;
-    font-weight: 900;
-    margin-left: 1rem;
-    margin-top: 5rem;
-  }
-} */
 
 /* for mobile devices...small screen sizes */
 
@@ -242,8 +225,8 @@ body {
     padding-bottom: 14px;
     margin-top: -50px;
     cursor: pointer;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   .ul-header li {
